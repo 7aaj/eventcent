@@ -1,8 +1,8 @@
 import Collection from "@/components/shared/Collection";
 import { Button } from "@/components/ui/button";
 import { getEventsByUser } from "@/lib/actions/event.actions";
+import { getOrdersByUser } from "@/lib/actions/order.actions";
 import { iOrder } from "@/lib/database/models/order.model";
-// import { getOrdersByUser } from "@/lib/actions/order.actions";
 import { SearchParamProps } from "@/types";
 import { auth } from "@clerk/nextjs";
 import Link from "next/link";
